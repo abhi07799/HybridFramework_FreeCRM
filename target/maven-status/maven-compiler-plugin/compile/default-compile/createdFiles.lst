@@ -1,0 +1,6 @@
+com/freecrm/base/TestBase.class
+com/freecrm/pages/LogInPage.class
+com/freecrm/util/AllureReportListener.class
+com/freecrm/util/TestUtil.class
+com/freecrm/pages/ContactsPage.class
+com/freecrm/pages/HomePage.class

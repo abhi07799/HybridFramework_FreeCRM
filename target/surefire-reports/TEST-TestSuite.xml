@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="240.431" tests="24" errors="0" skipped="15" failures="3">
+  <properties>
+    <property name="sun.desktop" value="gnome"/>
+    <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/usr/share/maven/boot/plexus-classworlds-2.x.jar"/>
+    <property name="java.vm.vendor" value="Ubuntu"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://ubuntu.com/"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="maven.conf" value="/usr/share/maven/conf"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="/usr/share/maven"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/arcgate"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-10-18"/>
+    <property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.17+8-post-Ubuntu-1ubuntu222.04"/>
+    <property name="user.name" value="arcgate"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="5.15.0-53-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="11.0.17"/>
+    <property name="user.dir" value="/home/arcgate/Demon/Selenium/FreeCRM_HybridFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/arcgate/Demon/Selenium/FreeCRM_HybridFramework"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Ubuntu"/>
+    <property name="java.vm.version" value="11.0.17+8-post-Ubuntu-1ubuntu222.04"/>
+    <property name="classworlds.conf" value="/usr/share/maven/bin/m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="library.jansi.path" value="/usr/share/maven/lib/jansi-native"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="validateLogo" classname="com.freecrm.testcases.LogInPageTest" time="0.11"/>
+  <testcase name="verifyUserNameDisplayed" classname="com.freecrm.testcases.HomePageTest" time="0.084"/>
+  <testcase name="verifyContactsPageLabel" classname="com.freecrm.testcases.ContactsPageTest" time="1.923"/>
+  <testcase name="validateTitle" classname="com.freecrm.testcases.LogInPageTest" time="0.013"/>
+  <testcase name="verifyTitle" classname="com.freecrm.testcases.HomePageTest" time="0.01"/>
+  <testcase name="setup" classname="com.freecrm.testcases.ContactsPageTest" time="30.623">
+    <failure message="timeout: Timed out receiving message from renderer: 26.311&#10;  (Session info: chrome=107.0.5304.110)&#10;Build info: version: &apos;4.5.0&apos;, revision: &apos;fe167b119a&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-53-generic&apos;, java.version: &apos;11.0.17&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [dcd420a9cc5adadf29eff1e7e3a44609, get {url=https://classic.crmpro.com/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.110, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /tmp/.com.google.Chrome.sEGQwi}, goog:chromeOptions: {debuggerAddress: localhost:43273}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:43273/devtoo..., se:cdpVersion: 107.0.5304.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: dcd420a9cc5adadf29eff1e7e3a44609" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 26.311
+  (Session info: chrome=107.0.5304.110)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-53-generic', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dcd420a9cc5adadf29eff1e7e3a44609, get {url=https://classic.crmpro.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.110, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /tmp/.com.google.Chrome.sEGQwi}, goog:chromeOptions: {debuggerAddress: localhost:43273}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:43273/devtoo..., se:cdpVersion: 107.0.5304.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dcd420a9cc5adadf29eff1e7e3a44609
+	at com.freecrm.testcases.ContactsPageTest.setup(ContactsPageTest.java:32)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 57126
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 22, 2022 1:25:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Nov 22, 2022 1:25:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 106
+Nov 22, 2022 1:25:05 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 107 of 106
+[1669103735.910][SEVERE]: Timed out receiving message from renderer: 26.311
+[1669103735.913][SEVERE]: Timed out receiving message from renderer: 26.311
+]]></system-err>
+  </testcase>
+  <testcase name="setup" classname="com.freecrm.testcases.ContactsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="com.freecrm.testcases.ContactsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="com.freecrm.testcases.ContactsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="setup" classname="com.freecrm.testcases.ContactsPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="selectSingleContactsTest" classname="com.freecrm.testcases.ContactsPageTest" time="0">
+    <skipped message="timeout: Timed out receiving message from renderer: 26.311&#10;  (Session info: chrome=107.0.5304.110)&#10;Build info: version: &apos;4.5.0&apos;, revision: &apos;fe167b119a&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-53-generic&apos;, java.version: &apos;11.0.17&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [dcd420a9cc5adadf29eff1e7e3a44609, get {url=https://classic.crmpro.com/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.110, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /tmp/.com.google.Chrome.sEGQwi}, goog:chromeOptions: {debuggerAddress: localhost:43273}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:43273/devtoo..., se:cdpVersion: 107.0.5304.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: dcd420a9cc5adadf29eff1e7e3a44609"/>
+    <system-out><![CDATA[I am in onTestSkipped method selectSingleContactsTest skipped
+I am in onTestSkipped method selectSingleContactsTest skipped
+]]></system-out>
+  </testcase>
+  <testcase name="setup" classname="com.freecrm.testcases.LogInPageTest" time="61.126">
+    <failure message="timeout: Timed out receiving message from renderer: 17.903&#10;  (Session info: chrome=107.0.5304.110)&#10;Build info: version: &apos;4.5.0&apos;, revision: &apos;fe167b119a&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-53-generic&apos;, java.version: &apos;11.0.17&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [120b0193d168379483ad24ad41ef7107, get {url=https://classic.crmpro.com/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.110, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /tmp/.com.google.Chrome.HE0obw}, goog:chromeOptions: {debuggerAddress: localhost:39649}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:39649/devtoo..., se:cdpVersion: 107.0.5304.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 120b0193d168379483ad24ad41ef7107" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 17.903
+  (Session info: chrome=107.0.5304.110)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-53-generic', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [120b0193d168379483ad24ad41ef7107, get {url=https://classic.crmpro.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.110, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /tmp/.com.google.Chrome.HE0obw}, goog:chromeOptions: {debuggerAddress: localhost:39649}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:39649/devtoo..., se:cdpVersion: 107.0.5304.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 120b0193d168379483ad24ad41ef7107
+	at com.freecrm.testcases.LogInPageTest.setup(LogInPageTest.java:30)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 56973
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 22, 2022 1:25:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Nov 22, 2022 1:25:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 106
+Nov 22, 2022 1:25:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 107 of 106
+[1669103766.432][SEVERE]: Timed out receiving message from renderer: 17.903
+[1669103766.435][SEVERE]: Timed out receiving message from renderer: 17.903
+]]></system-err>
+  </testcase>
+  <testcase name="setup" classname="com.freecrm.testcases.LogInPageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="validateLogin_WrongCredentials" classname="com.freecrm.testcases.LogInPageTest" time="0">
+    <skipped message="timeout: Timed out receiving message from renderer: 17.903&#10;  (Session info: chrome=107.0.5304.110)&#10;Build info: version: &apos;4.5.0&apos;, revision: &apos;fe167b119a&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-53-generic&apos;, java.version: &apos;11.0.17&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [120b0193d168379483ad24ad41ef7107, get {url=https://classic.crmpro.com/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.110, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /tmp/.com.google.Chrome.HE0obw}, goog:chromeOptions: {debuggerAddress: localhost:39649}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:39649/devtoo..., se:cdpVersion: 107.0.5304.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 120b0193d168379483ad24ad41ef7107"/>
+    <system-out><![CDATA[I am in onTestSkipped method validateLogin_WrongCredentials skipped
+I am in onTestSkipped method validateLogin_WrongCredentials skipped
+]]></system-out>
+  </testcase>
+  <testcase name="verifyCalendarPage" classname="com.freecrm.testcases.HomePageTest" time="1.758"/>
+  <testcase name="selectMultipleContactsTest" classname="com.freecrm.testcases.ContactsPageTest" time="0">
+    <skipped message="timeout: Timed out receiving message from renderer: 26.311&#10;  (Session info: chrome=107.0.5304.110)&#10;Build info: version: &apos;4.5.0&apos;, revision: &apos;fe167b119a&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-53-generic&apos;, java.version: &apos;11.0.17&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [dcd420a9cc5adadf29eff1e7e3a44609, get {url=https://classic.crmpro.com/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.110, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /tmp/.com.google.Chrome.sEGQwi}, goog:chromeOptions: {debuggerAddress: localhost:43273}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:43273/devtoo..., se:cdpVersion: 107.0.5304.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: dcd420a9cc5adadf29eff1e7e3a44609"/>
+    <system-out><![CDATA[I am in onTestSkipped method selectMultipleContactsTest skipped
+I am in onTestSkipped method selectMultipleContactsTest skipped
+]]></system-out>
+  </testcase>
+  <testcase name="validateLogin" classname="com.freecrm.testcases.LogInPageTest" time="0">
+    <skipped message="timeout: Timed out receiving message from renderer: 17.903&#10;  (Session info: chrome=107.0.5304.110)&#10;Build info: version: &apos;4.5.0&apos;, revision: &apos;fe167b119a&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-53-generic&apos;, java.version: &apos;11.0.17&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [120b0193d168379483ad24ad41ef7107, get {url=https://classic.crmpro.com/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.110, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /tmp/.com.google.Chrome.HE0obw}, goog:chromeOptions: {debuggerAddress: localhost:39649}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:39649/devtoo..., se:cdpVersion: 107.0.5304.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 120b0193d168379483ad24ad41ef7107"/>
+    <system-out><![CDATA[I am in onTestSkipped method validateLogin skipped
+I am in onTestSkipped method validateLogin skipped
+]]></system-out>
+  </testcase>
+  <testcase name="setup" classname="com.freecrm.testcases.HomePageTest" time="41.008">
+    <failure message="timeout: Timed out receiving message from renderer: 30.000&#10;  (Session info: chrome=107.0.5304.110)&#10;Build info: version: &apos;4.5.0&apos;, revision: &apos;fe167b119a&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-53-generic&apos;, java.version: &apos;11.0.17&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [ed2ba0e1a0c91e1e753315d6fa9fe38a, clickElement {id=4ea37e81-40f4-4941-81cf-35277f0600bb}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.110, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /tmp/.com.google.Chrome.NWygW3}, goog:chromeOptions: {debuggerAddress: localhost:44063}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:44063/devtoo..., se:cdpVersion: 107.0.5304.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on LINUX (ed2ba0e1a0c91e1e753315d6fa9fe38a)] -&gt; xpath: //input[@type=&apos;submit&apos;]]&#10;Session ID: ed2ba0e1a0c91e1e753315d6fa9fe38a" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=107.0.5304.110)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-53-generic', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ed2ba0e1a0c91e1e753315d6fa9fe38a, clickElement {id=4ea37e81-40f4-4941-81cf-35277f0600bb}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.110, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /tmp/.com.google.Chrome.NWygW3}, goog:chromeOptions: {debuggerAddress: localhost:44063}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:44063/devtoo..., se:cdpVersion: 107.0.5304.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on LINUX (ed2ba0e1a0c91e1e753315d6fa9fe38a)] -> xpath: //input[@type='submit']]
+Session ID: ed2ba0e1a0c91e1e753315d6fa9fe38a
+	at com.freecrm.testcases.HomePageTest.setup(HomePageTest.java:33)
+</failure>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 51152
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 22, 2022 1:27:04 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected upstream dialect: W3C
+Nov 22, 2022 1:27:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: 106
+Nov 22, 2022 1:27:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 107 of 106
+[1669103863.165][SEVERE]: Timed out receiving message from renderer: 30.000
+[1669103863.168][SEVERE]: Timed out receiving message from renderer: 30.000
+]]></system-err>
+  </testcase>
+  <testcase name="setup" classname="com.freecrm.testcases.HomePageTest" time="0">
+    <skipped/>
+  </testcase>
+  <testcase name="verifyCompaniesPage" classname="com.freecrm.testcases.HomePageTest" time="0">
+    <skipped message="timeout: Timed out receiving message from renderer: 30.000&#10;  (Session info: chrome=107.0.5304.110)&#10;Build info: version: &apos;4.5.0&apos;, revision: &apos;fe167b119a&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-53-generic&apos;, java.version: &apos;11.0.17&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [ed2ba0e1a0c91e1e753315d6fa9fe38a, clickElement {id=4ea37e81-40f4-4941-81cf-35277f0600bb}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.110, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /tmp/.com.google.Chrome.NWygW3}, goog:chromeOptions: {debuggerAddress: localhost:44063}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:44063/devtoo..., se:cdpVersion: 107.0.5304.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on LINUX (ed2ba0e1a0c91e1e753315d6fa9fe38a)] -&gt; xpath: //input[@type=&apos;submit&apos;]]&#10;Session ID: ed2ba0e1a0c91e1e753315d6fa9fe38a"/>
+    <system-out><![CDATA[I am in onTestSkipped method verifyCompaniesPage skipped
+I am in onTestSkipped method verifyCompaniesPage skipped
+]]></system-out>
+  </testcase>
+  <testcase name="validateCreateNewContact" classname="com.freecrm.testcases.ContactsPageTest" time="0">
+    <skipped message="timeout: Timed out receiving message from renderer: 26.311&#10;  (Session info: chrome=107.0.5304.110)&#10;Build info: version: &apos;4.5.0&apos;, revision: &apos;fe167b119a&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-53-generic&apos;, java.version: &apos;11.0.17&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [dcd420a9cc5adadf29eff1e7e3a44609, get {url=https://classic.crmpro.com/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.110, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /tmp/.com.google.Chrome.sEGQwi}, goog:chromeOptions: {debuggerAddress: localhost:43273}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:43273/devtoo..., se:cdpVersion: 107.0.5304.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: dcd420a9cc5adadf29eff1e7e3a44609"/>
+    <system-out><![CDATA[I am in onTestSkipped method validateCreateNewContact skipped
+I am in onTestSkipped method validateCreateNewContact skipped
+]]></system-out>
+  </testcase>
+  <testcase name="validateCreateNewContact" classname="com.freecrm.testcases.ContactsPageTest" time="0">
+    <skipped message="timeout: Timed out receiving message from renderer: 26.311&#10;  (Session info: chrome=107.0.5304.110)&#10;Build info: version: &apos;4.5.0&apos;, revision: &apos;fe167b119a&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-53-generic&apos;, java.version: &apos;11.0.17&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [dcd420a9cc5adadf29eff1e7e3a44609, get {url=https://classic.crmpro.com/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.110, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /tmp/.com.google.Chrome.sEGQwi}, goog:chromeOptions: {debuggerAddress: localhost:43273}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:43273/devtoo..., se:cdpVersion: 107.0.5304.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: dcd420a9cc5adadf29eff1e7e3a44609"/>
+    <system-out><![CDATA[I am in onTestSkipped method validateCreateNewContact skipped
+I am in onTestSkipped method validateCreateNewContact skipped
+]]></system-out>
+  </testcase>
+  <testcase name="validateCreateNewContact" classname="com.freecrm.testcases.ContactsPageTest" time="0">
+    <skipped message="timeout: Timed out receiving message from renderer: 26.311&#10;  (Session info: chrome=107.0.5304.110)&#10;Build info: version: &apos;4.5.0&apos;, revision: &apos;fe167b119a&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-53-generic&apos;, java.version: &apos;11.0.17&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [dcd420a9cc5adadf29eff1e7e3a44609, get {url=https://classic.crmpro.com/}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.110, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /tmp/.com.google.Chrome.sEGQwi}, goog:chromeOptions: {debuggerAddress: localhost:43273}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:43273/devtoo..., se:cdpVersion: 107.0.5304.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: dcd420a9cc5adadf29eff1e7e3a44609"/>
+    <system-out><![CDATA[I am in onTestSkipped method validateCreateNewContact skipped
+I am in onTestSkipped method validateCreateNewContact skipped
+]]></system-out>
+  </testcase>
+  <testcase name="moveToContactsPage" classname="com.freecrm.testcases.HomePageTest" time="0">
+    <skipped message="timeout: Timed out receiving message from renderer: 30.000&#10;  (Session info: chrome=107.0.5304.110)&#10;Build info: version: &apos;4.5.0&apos;, revision: &apos;fe167b119a&apos;&#10;System info: os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.15.0-53-generic&apos;, java.version: &apos;11.0.17&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [ed2ba0e1a0c91e1e753315d6fa9fe38a, clickElement {id=4ea37e81-40f4-4941-81cf-35277f0600bb}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.110, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /tmp/.com.google.Chrome.NWygW3}, goog:chromeOptions: {debuggerAddress: localhost:44063}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:44063/devtoo..., se:cdpVersion: 107.0.5304.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on LINUX (ed2ba0e1a0c91e1e753315d6fa9fe38a)] -&gt; xpath: //input[@type=&apos;submit&apos;]]&#10;Session ID: ed2ba0e1a0c91e1e753315d6fa9fe38a"/>
+    <system-out><![CDATA[I am in onTestSkipped method moveToContactsPage skipped
+I am in onTestSkipped method moveToContactsPage skipped
+]]></system-out>
+  </testcase>
+</testsuite>

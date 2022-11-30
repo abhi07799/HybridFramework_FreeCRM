@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="FreeCRM Automation">
+
+	<listeners>
+		<listener class-name="com.freecrm.util.AllureReportListener" />
+	</listeners>
+
+	<test name="Freecrm Test">
+		<classes>
+			<class name="com.freecrm.testcases.LogInPageTest"></class>
+			<class name="com.freecrm.testcases.HomePageTest"></class>
+			<class name="com.freecrm.testcases.ContactsPageTest"></class>
+		</classes>
+	</test>
+
+</suite>

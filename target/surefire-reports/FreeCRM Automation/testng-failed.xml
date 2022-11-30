@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [FreeCRM Automation]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="com.freecrm.util.AllureReportListener"/>
+  </listeners>
+  <test name="Freecrm Test(failed)">
+    <classes>
+      <class name="com.freecrm.testcases.ContactsPageTest">
+        <methods>
+          <include name="selectMultipleContactsTest"/>
+          <include name="setup"/>
+          <include name="selectSingleContactsTest"/>
+          <include name="tearDown"/>
+          <include name="validateCreateNewContact"/>
+        </methods>
+      </class> <!-- com.freecrm.testcases.ContactsPageTest -->
+      <class name="com.freecrm.testcases.HomePageTest">
+        <methods>
+          <include name="verifyCompaniesPage"/>
+          <include name="moveToContactsPage"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.freecrm.testcases.HomePageTest -->
+      <class name="com.freecrm.testcases.LogInPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="validateLogin_WrongCredentials"/>
+          <include name="tearDown"/>
+          <include name="validateLogin"/>
+        </methods>
+      </class> <!-- com.freecrm.testcases.LogInPageTest -->
+    </classes>
+  </test> <!-- Freecrm Test(failed) -->
+</suite> <!-- Failed suite [FreeCRM Automation] -->

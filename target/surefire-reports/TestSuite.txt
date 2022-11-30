@@ -1,0 +1,41 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 24, Failures: 3, Errors: 0, Skipped: 15, Time elapsed: 240.431 s <<< FAILURE! - in TestSuite
+setup(com.freecrm.testcases.ContactsPageTest)  Time elapsed: 30.623 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 26.311
+  (Session info: chrome=107.0.5304.110)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-53-generic', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [dcd420a9cc5adadf29eff1e7e3a44609, get {url=https://classic.crmpro.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.110, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /tmp/.com.google.Chrome.sEGQwi}, goog:chromeOptions: {debuggerAddress: localhost:43273}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:43273/devtoo..., se:cdpVersion: 107.0.5304.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: dcd420a9cc5adadf29eff1e7e3a44609
+	at com.freecrm.testcases.ContactsPageTest.setup(ContactsPageTest.java:32)
+
+setup(com.freecrm.testcases.LogInPageTest)  Time elapsed: 61.126 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 17.903
+  (Session info: chrome=107.0.5304.110)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-53-generic', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [120b0193d168379483ad24ad41ef7107, get {url=https://classic.crmpro.com/}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.110, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /tmp/.com.google.Chrome.HE0obw}, goog:chromeOptions: {debuggerAddress: localhost:39649}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:39649/devtoo..., se:cdpVersion: 107.0.5304.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 120b0193d168379483ad24ad41ef7107
+	at com.freecrm.testcases.LogInPageTest.setup(LogInPageTest.java:30)
+
+setup(com.freecrm.testcases.HomePageTest)  Time elapsed: 41.008 s  <<< FAILURE!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 30.000
+  (Session info: chrome=107.0.5304.110)
+Build info: version: '4.5.0', revision: 'fe167b119a'
+System info: os.name: 'Linux', os.arch: 'amd64', os.version: '5.15.0-53-generic', java.version: '11.0.17'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ed2ba0e1a0c91e1e753315d6fa9fe38a, clickElement {id=4ea37e81-40f4-4941-81cf-35277f0600bb}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.110, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: /tmp/.com.google.Chrome.NWygW3}, goog:chromeOptions: {debuggerAddress: localhost:44063}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: LINUX, proxy: Proxy(), se:cdp: ws://localhost:44063/devtoo..., se:cdpVersion: 107.0.5304.110, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on LINUX (ed2ba0e1a0c91e1e753315d6fa9fe38a)] -> xpath: //input[@type='submit']]
+Session ID: ed2ba0e1a0c91e1e753315d6fa9fe38a
+	at com.freecrm.testcases.HomePageTest.setup(HomePageTest.java:33)
+
